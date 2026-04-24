@@ -20,3 +20,7 @@ Rplots.pdf
 
 # R — outputs temporales
 /rsconnect/
+
+# El propio gitignore :v
+*.gitignore*
+*.git/

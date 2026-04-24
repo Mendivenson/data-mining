@@ -22,5 +22,5 @@ Rplots.pdf
 /rsconnect/
 
 # El propio gitignore :v
-.gitignore
-*/git/
+*.gitignore*
+*.git/

@@ -1,0 +1,7 @@
+*.html -linguist-detectable
+*.htm  -linguist-detectable
+*.css  -linguist-detectable
+*.xml  -linguist-detectable
+*.json -linguist-detectable
+*.yaml -linguist-detectable
+*.yml  -linguist-detectable

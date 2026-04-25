@@ -1,7 +1,9 @@
 # --------------------------------- CLASE SQL. PARTE 1 ---------------------------------------------
 # Autor: Michel Mendivenson Barragán Zabala mbarraganz@unal.edu.co
-# EstudianteMinería de datos. 2026-1 
+# Asignatura: Minería de datos. 2026-1 
 # --------------------------------------------------------------------------------------------------
+
+setwd(here::here())
 
 # Conexión a bases de datos de ejemplo
 library(DBI)
@@ -10,9 +12,8 @@ library(dplyr)
 con <- dbConnect(RSQLite::SQLite(), "../_resources/chinook.db"); cat("Conexión establecida.\n")
 
 dbListTables(con)
-dbListFields(con, 'Track')
 
-# ================= EJERCICIO 1: ANÁLISIS DESCRIPTIVO DE LA COLECCIÓN MUSICAL =====================
+# ================= EJERCICIO 1: ANÁLISIS DESCRIPTIVO DE LA COLECCIÓN MUSICAL ======================
 # Con la base de datos Chinook, responde las siguientes preguntas usando sentencias SQL.
 
 # ---> 1. ¿Cuántas pistas hay en total en la base de datos?
@@ -145,3 +146,6 @@ SELECT month, `avg sales`, 'min' AS tipo FROM (
 )
 ")
 
+# ==================================================================================================
+
+# EOF

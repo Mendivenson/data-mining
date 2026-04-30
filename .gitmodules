@@ -1,3 +1,6 @@
 [submodule "_parciales"]
 	path = _parciales
 	url = https://github.com/Mendivenson/mendivenson-barragan.git
+[submodule "_submissions"]
+	path = _submissions
+	url = https://github.com/Mendivenson/mendivenson-barragan/tree/95325eeb5a8fb5c6bc8abdf117fe88eb52079cd4

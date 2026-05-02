@@ -113,7 +113,6 @@ dbGetQuery(con, "
 # ==================================================================================================
 
 
-
 # ====================== EJERCICIO 2: ANÁLISIS TEMPORAL CON FUNCIONES DE VENTANA ===================
 # Usando la tabla Invoice:
 
